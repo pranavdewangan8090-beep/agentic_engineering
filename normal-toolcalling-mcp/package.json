@@ -1,0 +1,23 @@
+{
+  "name": "codeinvestigator-normal-toolcalling-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "demo": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
+    "dotenv": "^17.0.0",
+    "openai": "^6.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.0.0",
+    "typescript": "^6.0.0"
+  }
+}

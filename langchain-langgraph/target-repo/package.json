@@ -1,0 +1,6 @@
+{
+  "name": "demo-target-repo",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test tests/orders.test.js"}
+}
